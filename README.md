@@ -24,3 +24,16 @@ git commit -m "[PGS] {문제 이름 ex. 시험장 나누기}
 ```
 4. 원본 저장소로 `Pull Request`를 한다. (오후에 Merge 예정)
 5. 다른 사람들의 PR을 보고 자유롭게 코드리뷰를 한다.
+
+
+## 🎓 초반 세팅 방법
+1. 우선 해당 레포시토리를 Fork하여 개인 repository를 생성해주세요.
+2. 로컬 환경에서 사용하기 위해 개인 repository를 clone해주세요. 
+```
+git clone [로컬 저장소 주소]
+```
+3. clone한 repository와 원래 original repository(organization에 있는 repo)를 연결하고 확인해주세요.
+```
+git remote add upstream https://github.com/ssafy-10th-9-study/algorithm.git
+git remote -v
+```
