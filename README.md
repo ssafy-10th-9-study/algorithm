@@ -12,7 +12,7 @@
 
 ## ✅ 규칙
 1. 금요일 자정까지 정해진 문제 제출 담당자가 2 문항을 정해 미리 공유한다.
-2. 문제를 풀기 전 자신의 이름으로 된 폴더를 새로 만들어 그 안에 파일을 올리도록 한다. (ex. Byungheon)
+2. **문제를 풀기 전 자신의 이름으로 된 폴더를 새로 만들어 그 안에 파일을 올리도록 한다.** (ex. Byungheon)
 3. 외부 IDE 사용을 금지한다. 하단 링크 java 8 레퍼런스 참고   
 
       java8 - https://docs.oracle.com/javase/8/docs/api/   
@@ -37,3 +37,11 @@ git clone [로컬 저장소 주소]
 git remote add upstream https://github.com/ssafy-10th-9-study/algorithm.git
 git remote -v
 ```
+
+## 🎓 스터디 Pull-Request 방법
+1. 외부 저장소(organization repository)와 동기화를 진행해준다.
+```
+git fetch upstream
+```
+2. 내가 푼 문제들을 commit 후 push를 진행한다.
+3. 내 repository에 들어가서 외부 저장소로 Pull-Request를 작성한다. 
