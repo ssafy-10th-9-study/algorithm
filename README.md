@@ -12,9 +12,11 @@
 ## ✅ 규칙
 1. 금요일 자정까지 정해진 문제 제출 담당자가 2 문항을 정해 미리 공유한다.
 2. 외부 IDE 사용을 금지한다. 하단 링크 java 8 레퍼런스 참고   
-java8 - https://docs.oracle.com/javase/8/docs/api/
-javascript - https://devdocs.programmers.co.kr/javascript/
-4. commit 규칙
+
+      java8 - https://docs.oracle.com/javase/8/docs/api/   
+      javascript - https://devdocs.programmers.co.kr/javascript/
+
+3. commit 규칙
 ```
 git commit -m "[PGS] {문제 이름 ex. 시험장 나누기}
 ```
