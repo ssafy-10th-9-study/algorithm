@@ -7,16 +7,18 @@
 
 취업하시지 않는 이상 출구는 없습니다. 
 
-**매주 토요일 오전 10 - 12시 2문항**
+**매주 토요일 오전 10 - 12시 2문항, 날짜 별로 만들어진 폴더 내에서 진행**
+(ex. 24-04-05-MockCodingTest)
 
 ## ✅ 규칙
 1. 금요일 자정까지 정해진 문제 제출 담당자가 2 문항을 정해 미리 공유한다.
-2. 외부 IDE 사용을 금지한다. 하단 링크 java 8 레퍼런스 참고   
+2. 문제를 풀기 전 자신의 이름으로 된 폴더를 새로 만들어 그 안에 파일을 올리도록 한다. (ex. Byungheon)
+3. 외부 IDE 사용을 금지한다. 하단 링크 java 8 레퍼런스 참고   
 
       java8 - https://docs.oracle.com/javase/8/docs/api/   
       javascript - https://devdocs.programmers.co.kr/javascript/
 
-3. commit 규칙
+4. commit 규칙
 ```
 git commit -m "[PGS] {문제 이름 ex. 시험장 나누기}
 ```
