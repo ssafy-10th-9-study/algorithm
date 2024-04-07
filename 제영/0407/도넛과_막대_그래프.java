@@ -46,7 +46,7 @@ class Solution {
             while (!queue.isEmpty()) {
                 now = queue.poll();
                 List<Integer> target = adjList.get(now);
-                if (target.size() >= 2) {
+                if (target.size() == 2) {
                     answer[3]++; // 8자
                     continue outLoop;
                 }
