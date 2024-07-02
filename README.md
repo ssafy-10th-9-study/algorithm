@@ -44,5 +44,10 @@ git remote -v
 ```
 git fetch upstream
 ```
-2. 내가 푼 문제들을 commit 후 push를 진행한다.
-3. 내 repository에 들어가서 외부 저장소로 Pull-Request를 작성한다. 
+2. upstream을 동기화 했다면 내 local repository와 병합하고 다시 push를 진행한다. 
+```
+git merge upstream/main
+git push
+```
+3. 내가 푼 문제들을 commit 후 push를 진행한다.
+4. 내 repository에 들어가서 외부 저장소로 Pull-Request를 작성한다. 
