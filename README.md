@@ -7,25 +7,23 @@
 
 취업하시지 않는 이상 출구는 없습니다. 
 
-**매주 토요일 오전 10 - 12시 2문항, 날짜 별로 만들어진 폴더 내에서 진행**
-(ex. 24-04-05-MockCodingTest)   
+**매일 자신이 푼 문제 업로드, 주차 별로 만들어진 폴더 내에서 진행**   
+(ex. 24_06_x주차/{자기이름}/code.java)  
 
-- 문제를 시간 내에 풀지 못했다면 일요일 자정 전까지 풀어서 다시 올려주시기 바랍니다.    
-- 만약, 개인 사정으로 인해 참석하지 못하는 경우에도 따로 풀어서 일요일 자정 전까지 올려주시길 바랍니다. 
+**푸는 건 강요 ❌, 코드 리뷰는 강제 🆗 재촉도 🆗**   
 
 ## ✅ 규칙
-1. 금요일 자정까지 정해진 문제 제출 담당자가 2 문항을 정해 미리 공유한다.
-2. **문제를 풀기 전 자신의 이름으로 된 폴더를 새로 만들어 그 안에 파일을 올리도록 한다.** (ex. Byungheon)
-3. 외부 IDE 사용을 금지한다. 하단 링크 java 8 레퍼런스 참고   
+1. **문제를 풀기 전 자신의 이름으로 된 폴더를 새로 만들어 그 안에 파일을 올리도록 한다.** (ex. Byungheon)
+2. 코테 적응을 위해 외부 IDE 사용을 지양한다. 하단 링크 java 8 레퍼런스 참고   
 
       java8 - https://docs.oracle.com/javase/8/docs/api/   
       javascript - https://devdocs.programmers.co.kr/javascript/
 
-4. commit 규칙
+3. commit 규칙
 ```
 git commit -m "[PGS] {문제 이름 ex. 시험장 나누기}
 ```
-4. 원본 저장소로 `Pull Request`를 한다. (오후에 Merge 예정)
+4. 원본 저장소로 `Pull Request`를 한다.
 5. 다른 사람들의 PR을 보고 자유롭게 코드리뷰를 한다.
 
 
@@ -46,5 +44,10 @@ git remote -v
 ```
 git fetch upstream
 ```
-2. 내가 푼 문제들을 commit 후 push를 진행한다.
-3. 내 repository에 들어가서 외부 저장소로 Pull-Request를 작성한다. 
+2. upstream을 동기화 했다면 내 local repository와 병합하고 다시 push를 진행한다. 
+```
+git merge upstream/main
+git push
+```
+3. 내가 푼 문제들을 commit 후 push를 진행한다.
+4. 내 repository에 들어가서 외부 저장소로 Pull-Request를 작성한다. 
