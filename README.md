@@ -1,5 +1,5 @@
-# ssafy_10th_9_study
-알고리즘을 까먹어 가는 사람들의 실전 감각 기르는 공간
+# 알고리즘은 매일 챙겨먹어야 되요.
+까먹지 않기 위해 노력하는 사람들의 모임
 
 ---
 # 📓 알고리즘 및 코딩 테스트 문제 풀이 공유 
@@ -50,4 +50,7 @@ git merge upstream/main
 git push
 ```
 3. 내가 푼 문제들을 commit 후 push를 진행한다.
-4. 내 repository에 들어가서 외부 저장소로 Pull-Request를 작성한다. 
+4. 내 repository에 들어가서 외부 저장소로 Pull-Request를 작성한다.
+
+***
+이미지 출처 <a href="https://kr.freepik.com/free-vector/hand-drawn-pill-cartoon-illustration_54998193.htm#query=%EC%95%8C%EC%95%BD%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8&position=1&from_view=keyword&track=ais_user&uuid=be0ac040-5964-4a9f-8086-a6a1efd61248">Freepik</a>
