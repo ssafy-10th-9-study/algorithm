@@ -1,5 +1,5 @@
-# ssafy_10th_9_study
-알고리즘을 까먹어 가는 사람들의 실전 감각 기르는 공간
+# 알고리즘은 매일 챙겨먹어야 해요.
+까먹지 않기 위해 노력하는 사람들의 모임
 
 ---
 # 📓 알고리즘 및 코딩 테스트 문제 풀이 공유 
@@ -8,7 +8,7 @@
 취업하시지 않는 이상 출구는 없습니다. 
 
 **매일 자신이 푼 문제 업로드, 주차 별로 만들어진 폴더 내에서 진행**   
-(ex. 24_06_x주차/{자기이름}/code.java)  
+(ex. {자기 이름}/BOJ_02458_키순서.java)  
 
 **푸는 건 강요 ❌, 코드 리뷰는 강제 🆗 재촉도 🆗**   
 
@@ -24,7 +24,7 @@
 git commit -m "[PGS] {문제 이름 ex. 시험장 나누기}
 ```
 4. 원본 저장소로 `Pull Request`를 한다.
-5. 다른 사람들의 PR을 보고 자유롭게 코드리뷰를 한다.
+5. 다른 사람들의 PR을 보고 자유롭게 코드리뷰를 한다. (선정된 사람 이외에도 코드리뷰를 해도 괜찮습니다.)
 
 
 ## 🎓 초반 세팅 방법
@@ -50,4 +50,7 @@ git merge upstream/main
 git push
 ```
 3. 내가 푼 문제들을 commit 후 push를 진행한다.
-4. 내 repository에 들어가서 외부 저장소로 Pull-Request를 작성한다. 
+4. 내 repository에 들어가서 외부 저장소로 Pull-Request를 작성한다.
+
+***
+이미지 출처 <a href="https://kr.freepik.com/free-vector/hand-drawn-pill-cartoon-illustration_54998193.htm#query=%EC%95%8C%EC%95%BD%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8&position=1&from_view=keyword&track=ais_user&uuid=be0ac040-5964-4a9f-8086-a6a1efd61248">Freepik</a>
