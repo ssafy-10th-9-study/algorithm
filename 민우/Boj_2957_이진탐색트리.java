@@ -1,9 +1,12 @@
+package ps;
+
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Boj_2957_이진탐색트리 {
     static class Node {
-        int data,height;
+        int data;
+        Node left, right;
         public Node(int data){
             this.data = data;
         }
@@ -40,7 +43,7 @@ public class Main {
                 int nodeNo = list.get(idx - 1);
                 Node pNode = tree[nodeNo];
                 tree[num] =  new Node(num);
-                tree[num].height = pNode.height + 1;
+                pNode.right = tree[num];
                 count[num] = count[nodeNo] + 1;
 
                 list.add(num);
@@ -51,26 +54,23 @@ public class Main {
                 int nodeNo = list.get(0);
                 Node pNode = tree[nodeNo];
                 tree[num] =  new Node(num);
-                tree[num].height = pNode.height + 1;
                 count[num] = count[nodeNo] + 1;
-
+                pNode.left = tree[num];
                 list.add(0,num);
             }
 
             else{
                 Node leftPNode = tree[list.get(idx-1)];
                 Node rightPNode = tree[list.get(idx)];
-                if(leftPNode.height > rightPNode.height){
-                    tree[num] = new Node(num);
-                    tree[num].height = leftPNode.height + 1;
-                    count[num] = count[list.get(idx-1)] + 1;
+                tree[num] = new Node(num);
+                if(rightPNode.left == null){
+                    count[num] = count[list.get(idx)] + 1;
+                    rightPNode.left = tree[num];
                 }
                 else{
-                    tree[num] = new Node(num);
-                    tree[num].height = rightPNode.height + 1;
-                    count[num] = count[list.get(idx)] + 1;
+                    count[num] = count[list.get(idx-1)] + 1;
+                    leftPNode.right = tree[num];
                 }
-
 
 
                 list.add(idx,num);
