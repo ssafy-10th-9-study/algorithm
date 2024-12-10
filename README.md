@@ -16,7 +16,7 @@
 1. **문제를 풀기 전 자신의 이름으로 된 폴더를 새로 만들어 그 안에 파일을 올리도록 한다.** (ex. Byungheon)
 2. 코테 적응을 위해 외부 IDE 사용을 지양한다. 하단 링크 java 8 레퍼런스 참고   
 
-      java8 - https://docs.oracle.com/javase/8/docs/api/   
+      java11 - https://devdocs.programmers.co.kr/openjdk~11/
       javascript - https://devdocs.programmers.co.kr/javascript/
 
 3. commit 규칙
